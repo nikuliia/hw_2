@@ -11,21 +11,21 @@ function run() {
     }
 
     if (number < 100 || number > 999) {
-        alert("Not a number. Please, reload page and try again!")
+        alert("Not a number. Please, reload the page and try again!")
         return
     }
 
     const numbers = value.split('')
     const unique = new Set(numbers)
 
-    const isAllEqual = unique.size === 1,
-        isSomeEqual = unique.size === 2
+    const allAreEqual = unique.size === 1,
+        someAreEqual = unique.size === 2
 
-    if (isAllEqual) {
-        alert("All numbers is equals.")
+    if (allAreEqual) {
+        alert("All numbers are equal.")
     }
 
-    if (isSomeEqual) {
-        alert("Some numbers is equals.")
+    if (someAreEqual) {
+        alert("Some numbers are equal.")
     }
 }
