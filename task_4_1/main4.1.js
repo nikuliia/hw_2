@@ -9,17 +9,6 @@ if (yourName && isNaN(Number(yourName)) && yourName.trim().length >= 2) {
 }
 
 
-let message = "Thanks for Visiting!"
-confirm()
-// confirm(message)
-
-if (window.confirm("Do you really want to leave?")) {
-    window.open("exit.html", "Thanks for Visiting!");
-} else {
-    alert("You chose to stay on this page!");
-}
-
-
 
 // let user = null;
 // let defaultUser = { name: 'Гість' };
